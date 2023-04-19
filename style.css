@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+#grid {
+    display: grid;
+    border: solid 3px;
+    border-color: blue;
+}
+
+p {
+    color: white;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.days {
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Edays {
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.chosenDay {
+    background-color: blueviolet;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px;
+    border-color: white;
+    flex-grow: 1;
+}
+
+#day {
+    border: solid 2px;
+    border-color: white;
+}
+
+tr {
+    display: flex;
+    justify-content: space-around;
+}
+
+tbody {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.lArrow {
+    height: 40px;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+.rArrow {
+    height: 40px;
+    margin: 0px;
+    padding-top: 15px;
+}
